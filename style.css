@@ -111,8 +111,7 @@ span {
 /* main sub-section 3 */
 
 .instagram {
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
 
