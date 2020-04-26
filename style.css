@@ -114,10 +114,8 @@ span {
 }
 
 .btn {
-	display: fixed;
 	padding: 10px;
-	margin-right: 420px;
-	justify-content: center;
+	border: black solid 2px;
 }
 
 
@@ -258,6 +256,7 @@ footer {
 	.btn {
 		padding: 10px;
 		margin-right: 450px;
+		border: black 2px solid;
 		
 	}
 
