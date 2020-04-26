@@ -191,7 +191,7 @@ footer {
 
 
 @media screen and (min-width: 1100px) {
-	
+	/* header */
 	#name {
 		float: left;
 		margin-left: 150px;
@@ -211,11 +211,58 @@ footer {
 		text-align: right;
 		padding: 20px 40px 20px 10px;
 	}
-
+	/*section 1*/
 	.three-images {
-		display: inline-block;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 1375px;
+		height: 549px;
 	}
 
+	.image-one {
+		display: inline;
+		width: 433px;
+		height: 549px;
+		float: left;
+	}
+
+	.picone {
+		height: 275px;
+		width: 300px;
+	}
+
+	.image-two {
+		display: inline;
+		width: 433px;
+		height: 450px;
+
+	}
+
+	.pictwo {
+		height: 275px;
+		width: 300px;
+	}
+
+	.image-three {
+		display: inline;
+		width: 433px;
+		height: 549px;
+	}
+
+	.picthree {
+		height: 275px;
+		width: 300px;
+	}
+
+	.btn {
+		padding: 10px;
+		margin-right: 450px;
+		
+	}
+
+	/* section 2 */
+	.hidden,
 	.grid {
 		display: grid;
 		grid-template-columns: 
