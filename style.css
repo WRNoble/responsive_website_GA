@@ -4,6 +4,7 @@ html,
 body {
 	font-size: 14px;
 	margin: 8px 0px;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 a {
@@ -303,6 +304,11 @@ footer {
 	  	grid-template-areas: 
 	    "image-four image-four image-five image-six"
 	    "image-four image-four image-seven image-eight";
+	}
+
+	h5 {
+		display: block;
+		border-bottom: solid lightgrey 2px;
 	}	
 	footer {
 		padding: 50px 0;
