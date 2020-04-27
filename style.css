@@ -127,7 +127,6 @@ span {
 }
 
 .instagram {
-	display: inline-block;
 	text-align: center;
 }
 
@@ -256,17 +255,65 @@ footer {
 	.btn {
 		padding: 10px;
 		margin-right: 240px;
-		border: black 2px solid;
-		
+		border: black 2px solid;	
 	}
 
 	/* section 2 */
-	.hidden,
-	.grid {
-		display: grid;
-		grid-template-columns: 
+
+	.instagram {
+		display: flex;
+		justify-content: center;
 	}
 
+	
+	/*.grid {
+		display: grid;
+		margin: 0px 150px 0px 150px;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}*/
+
+	.image-four {
+		width: 631px;
+		height: 631px;
+		grid-column: 1 /span 2;
+		grid-row: 1 /span 2;
+
+	}
+	.image-five {
+		display: block;
+		width: 289px;
+		height: 289px;
+	}
+
+	.image-six {
+		display: block;
+		width: 289px;
+		height: 289px;
+	}
+
+	.image-seven {
+		display: block;
+		width: 289px;
+		height: 289px;
+		align-self: end;
+	}
+
+	.image-eight {
+		display: block;
+		width: 289px;
+		height: 289px;
+		align-self: end;
+	}
+
+	.grid {
+		display: grid;
+	  	grid-template-columns: auto;
+	  	grid-template-rows: auto;
+	  	grid-template-areas: 
+	    "image-four image-four image-five image-six"
+	    "image-four image-four image-seven image-eight";
+	}	
 	footer {
 		padding: 50px 0;
 	}
