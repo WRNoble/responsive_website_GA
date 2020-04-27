@@ -78,17 +78,13 @@ span {
 	text-align: center;
 }
 
-.image-two {
-
-}
-
 .three-images {
 	display: flex;
 	flex-direction: column;
 	margin: 40px 20px 40px 20px;
 	text-align: center;
 }
-/* https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio I was struggling to find a way to resize the images and used stackoverflow*/
+
 .picone {
 	display: block;
   	margin-left: auto;
@@ -116,6 +112,7 @@ span {
 .btn {
 	padding: 10px;
 	border: black solid 2px;
+	background-color: transparent;
 }
 
 
@@ -172,18 +169,18 @@ footer {
 	text-align: center;
 }
 
-.foot-links {
+.icons {
 	margin: 5px 5px;
+	padding: 5px 5px;
+	width: 50px;
+	height: 50px;
 }
 
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
 	
-	li {
-		display: flex;
-		padding: 5px 0 5px 0;
-	}
+	
 }
 
 
@@ -255,7 +252,8 @@ footer {
 	.btn {
 		padding: 10px;
 		margin-right: 240px;
-		border: black 2px solid;	
+		border: black 2px solid;
+		background-color: transparent;	
 	}
 
 	/* section 2 */
@@ -265,20 +263,12 @@ footer {
 		justify-content: center;
 	}
 
-	
-	/*.grid {
-		display: grid;
-		margin: 0px 150px 0px 150px;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr;
-	}*/
 
 	.image-four {
 		width: 631px;
 		height: 631px;
 		grid-column: 1 /span 2;
 		grid-row: 1 /span 2;
-
 	}
 	.image-five {
 		display: block;
