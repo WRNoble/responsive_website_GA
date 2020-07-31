@@ -4,7 +4,7 @@ This project demonstrates my ability to make a website which can respond to diff
 
 ## Getting Started
 
-If you wish to aqcuire this mock website it can be found at my github account and accessed.
+If you wish to acquire this mock website it can be found at my github account and accessed.
 
 ## Prerequisites
 
